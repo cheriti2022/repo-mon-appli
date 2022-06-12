@@ -1,64 +1,146 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.formation.integcontinue.AppTest" time="0" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.formation.integcontinue.AppTest" time="0.008" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="14.0.1+7"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="G:\Formation Cdoss\formation Devops\DevSahbi2\Mon-appli"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="FR"/>
+    <property name="JOB_NAME" value="mon-appli-github"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="G:\Formation Cdoss\formation Devops\DevSahbi2\Mon-appli"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://127.0.0.1:7070/job/mon-appli-github/3/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\DELL\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c054db5c9db0d0bb"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\DELL\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="built-in"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="GIT_COMMITTER_EMAIL" value="jenkins@mysociete.com"/>
+    <property name="user.name" value="DELL"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="fr"/>
+    <property name="JOB_BASE_NAME" value="mon-appli-github"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:7070/job/mon-appli-github/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="OneDrive" value="C:\Users\DELL\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\DELL\AppData\Local"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="DELL"/>
+    <property name="GIT_AUTHOR_NAME" value="jenkins"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="OneDriveConsumer" value="C:\Users\DELL\OneDrive"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\integ_continue\jenkins\apache-maven-3.8.5\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="FR"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:7070/job/mon-appli-github/3/display/redirect"/>
+    <property name="VISUALSVN_SERVER" value="C:\Program Files\VisualSVN Server\"/>
+    <property name="TMP" value="C:\Users\DELL\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://127.0.0.1:7070/job/mon-appli-github/3/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://127.0.0.1:7070/job/mon-appli-github/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-A0UTRVR"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\DELL"/>
+    <property name="COMPUTERNAME" value="DESKTOP-A0UTRVR"/>
+    <property name="user.script" value=""/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="GIT_COMMITTER_NAME" value="jenkins"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-mon-appli-github-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c054db5c9db0d0bb"/>
+    <property name="HUDSON_URL" value="http://127.0.0.1:7070/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\DELL"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\integ_continue\jenkins\apache-maven-3.8.5/bin;C:\Program Files\Java\jdk-14.0.1/bin;C:\Program Files\Java\jdk-14.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Users\DELL\AppData\Local\Mu\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.5\bin;;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\DELL\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\integ_continue\jenkins\apache-maven-3.8.5"/>
+    <property name="java.class.path" value="C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\integ_continue\jenkins\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar;C:\integ_continue\jenkins\apache-maven-3.8.5/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\integ_continue\jenkins\apache-maven-3.8.5 C:\Users\DELL\.jenkins\war\WEB-INF\lib\remoting-4.13.jar C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59031"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-14.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Users\DELL\AppData\Local\Mu\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.5\bin;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-14.0.1/bin"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="M2_HOME" value="C:\integ_continue\jenkins\apache-maven-3.8.5"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
     <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\DELL\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\integ_continue\jenkins\apache-maven-3.8.5/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:7070/job/mon-appli-github/3/"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="G:\Formation Cdoss\formation Devops\DevSahbi2\Mon-appli"/>
+    <property name="JOB_URL" value="http://127.0.0.1:7070/job/mon-appli-github/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-A0UTRVR"/>
+    <property name="USERDOMAIN" value="DESKTOP-A0UTRVR"/>
+    <property name="MAVEN_HOME" value="C:\integ_continue\jenkins\apache-maven-3.8.5"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.5\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Users\DELL\AppData\Local\Mu\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.5\bin;;."/>
-    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.5/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="58.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.5\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\DELL"/>
-    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="JENKINS_URL" value="http://127.0.0.1:7070/"/>
+    <property name="GIT_BRANCH" value="origin/main"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="8526ee500f24c839db29f3e92685c37ed4d92ded"/>
     <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\DELL\.jenkins\workspace\mon-appli-github@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\DELL\.jenkins\workspace\mon-appli-github"/>
+    <property name="GIT_AUTHOR_EMAIL" value="jenkins@mysociete.com"/>
+    <property name="maven3.interceptor.common" value="C:\Users\DELL\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Users\DELL\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\VisualSVN Server\PowerShellModules"/>
     <property name="java.specification.version" value="14"/>
-    <property name="user.name" value="DELL"/>
-    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="14"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
-    <property name="user.language" value="fr"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="14.0.1"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp850"/>
-    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.5"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2020-04-14"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="cp850"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="GIT_URL" value="https://github.com/cheriti2022/repo-mon-appli.git"/>
   </properties>
-  <testcase classname="com.formation.integcontinue.AppTest" name="testApp" time="0"/>
+  <testcase classname="com.formation.integcontinue.AppTest" name="testApp" time="0.008"/>
 </testsuite>
